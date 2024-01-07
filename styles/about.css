@@ -1,0 +1,52 @@
+section.about {
+  width: 1360px;
+  margin: 50px auto; 
+}
+
+/* Grafika avatar */
+
+section#about img {
+  width: 300px;
+  border-radius: 50%;
+  border: 5px solid goldenrod;
+  box-sizing: border-box;
+  vertical-align: middle;
+}
+
+/* Opis */
+
+section.about section.desc {
+  display: inline-block;
+  vertical-align: middle;
+  width: 70%;
+  text-align: center;
+  padding-left: 20%;
+  box-sizing: border-box;
+}
+
+/* Umiejętności */
+
+.skills {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.skills div {
+  display: inline-block;
+  margin: 10px 50px;
+}
+
+.skills p {
+  margin: 0px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.skills meter {
+  width: 500px;
+  height: 40px;
+}
+
+.skills meter::-webkit-meter-optimum-value {
+  background: goldenrod;
+}

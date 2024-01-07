@@ -1,0 +1,54 @@
+/* Górna nawigacja */
+section.hero {
+  color: white;
+  background-image: url('../img/hero.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+section.hero header {
+  padding-top: 20px;
+}
+
+section.hero h1 {
+  margin-top: 0;
+  display: inline-block;
+  width: 40%;
+  text-align: center;
+}
+
+section.hero nav {
+  display: inline-block;
+  width: 40%;
+  text-align: right;
+}
+
+section.hero nav a {
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: 600;
+  color: inherit;
+}
+
+section.hero nav a:hover {
+  color: goldenrod;
+}
+
+/* Element "Hero" */
+
+.hero__content {
+  height: 500px;
+  padding-top: 100px;
+  box-sizing: border-box;
+}
+
+.hero__content p {
+  text-align: right;
+  margin-right: 20%;
+}
+
+.hero__content p:first-child {
+  font-size: 45px;
+  font-weight: 600;
+}

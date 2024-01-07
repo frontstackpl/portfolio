@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Consulting Detective</title>
+    <link rel="stylesheet" href="./styles/main.css" />
+  </head>
+  <body>
+    <section class="hero">
+      <header>
+        <h1>Consulting Detective</h1>
+        <nav>
+          <a href="#about">O mnie</a>
+          <a href="#work">Sprawy</a>
+          <a href="#pricing">Cennik</a>
+          <!-- Dodaj własne linki. -->
+          <a href="#">Zgłoś sprawę</a>
+          <a href="#">Kontakt</a>
+        </nav>
+      </header>
+      <div class="hero__content">
+        <p>Cześć, jestem Sherlock Holmes.</p>
+        <p>
+          Rozwiążę dla Ciebie każdą zagadkę... jeżeli tylko będzie dla mnie
+          interesująca 🕵️‍♂️
+        </p>
+      </div>
+    </section>
+    <section id="about" class="about">
+      <img src="./img/sherlock.png" alt="Zdjęcie Sherlocka Holmesa" />
+      <section class="desc">
+        <h2 class="section__title">Kim jestem?</h2>
+        <p class="text">
+          Urodził się około 1854 roku. O jego sprawach rodzinnych wiadomo mało,
+          gdyż rzadko o nich mówił Holmes był genialnym detektywem
+          wykorzystującym do rozwiązywania zagadek kryminalnych metody, jak sam
+          autor określał, dedukcji.
+        </p>
+        <p class="text">
+          W rzeczywistości używaną metodą było rozumowanie abdukcyjne. Swoje
+          śledztwa opierał na umiejętności obserwacji i znajomości psychologii,
+          chemii, balistyki, matematyki, a także dużej wiedzy na temat wielu
+          kultur i religii. Kierował się też intuicją.
+          <i>
+            <a
+              href="https://pl.wikipedia.org/wiki/Sherlock_Holmes"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Wikipedia</a
+            >
+          </i>
+        </p>
+      </section>
+      <section class="skills">
+        <div>
+          <p>Skuteczność</p>
+          <meter value="0.9"></meter>
+        </div>
+        <div>
+          <p>Empatia</p>
+          <meter value="0.1"></meter>
+        </div>
+        <div>
+          <p>Punktualność</p>
+          <meter value="0.7"></meter>
+        </div>
+        <div>
+          <p>Dedukcja</p>
+          <meter value="1"></meter>
+        </div>
+      </section>
+    </section>
+    <section id="work" class="work">
+      <h2 class="section__title">Rozwiązane sprawy</h2>
+      <div>
+        <div class="card">
+          <img src="./img/dog.png" alt="Groźny pies" />
+          <h3>Pies Baskerville’ów</h3>
+          <p class="text">
+            12.05.2017, Londyn <span class="pill pill--orange">łatwa</span>
+          </p>
+          <p class="text">
+            Wstrząsającą legenda o psie Baskerville’ów zanotowana w manuskrypcie
+            datowanym na rok 1742.
+          </p>
+          <button class="button--general">Zobacz więcej</button>
+        </div>
+        <div class="card">
+          <img src="./img/pear.png" alt="Perły" />
+          <h3>Znak czterech</h3>
+          <p class="text">
+            12.05.2017, Londyn <span class="pill pill--orange">łatwa</span>
+          </p>
+          <p class="text">
+            Panna Mary Morstan od czasu śmierci jej ojca dostaje w prezencie co
+            roku, w ten sam dzień, piękną perłę.
+          </p>
+          <button class="button--general">Zobacz więcej</button>
+        </div>
+        <div class="card">
+          <img src="./img/scarlet.png" alt="Szkarłatny materiał" />
+          <h3>Studium w szkarłacie</h3>
+          <p class="text">
+            12.05.2017, Londyn <span class="pill pill--red">trudna</span>
+          </p>
+          <p class="text">
+            Zwłoki znaleziono w pustym domu, na ciele brak obrażeń, napis rache
+            (niem. zemsta) uczyniony krwią na ścianie..
+          </p>
+          <button class="button--general">Zobacz więcej</button>
+        </div>
+        <div class="card">
+          <img src="./img/waterfall.png" alt="Wysoki wodospad" />
+          <h3 title="Prof. Moriarty oraz jego nieuchwytny gang">
+            Prof. Moriarty oraz jego nieuchwytny gang
+          </h3>
+          <p class="text">
+            12.05.2017, Londyn <span class="pill pill--orange">łatwa</span>
+          </p>
+          <p class="text">
+            Wiele zbrodni pozostawało niewykrytych lub zostało uznanych przez
+            policję za nieszczęśliwe wypadki.
+          </p>
+          <button class="button--general">Zobacz więcej</button>
+        </div>
+      </div>
+    </section>
+    <section id="pricing" class="pricing">
+      <h2 class="section__title">Cennik</h2>
+      <div>
+        <div class="pricing__item">
+          <img src="./img/people.svg" />
+          <h3>Prosta zagadka</h3>
+          <ul>
+            <li>Jest interesująca</li>
+            <li>Dotyczy zwykłych ludzi</li>
+            <li>Nie wymaga podróży</li>
+            <li>Nie zgłaszana policji</li>
+          </ul>
+          <strong>Free</strong>
+        </div>
+        <div class="pricing__item">
+          <img src="./img/dead.svg" />
+          <h3>Tajemnicza śmierć</h3>
+          <ul>
+            <li>Jest interesująca</li>
+            <li>Niedaleka odległość</li>
+            <li>Brak świadków</li>
+            <li>Brak motywu</li>
+          </ul>
+          <strong>100</strong>
+        </div>
+        <div class="pricing__item">
+          <img src="./img/castle.svg" />
+          <h3>Skandal towarzyski</h3>
+          <ul>
+            <li>Sprawa jest interesująca</li>
+            <li>Dotyczy rodzin królewskich</li>
+            <li>Dotyczy arystokracji</li>
+            <li>Opłacone podróże</li>
+          </ul>
+          <strong>500</strong>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div>Consulting Detective</div>
+      <div>Copyright by frontschool.pl | 2021</div>
+    </footer>
+  </body>
+</html>

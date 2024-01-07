@@ -1,0 +1,57 @@
+.pricing {
+  padding: 20px 15% 50px 15%;
+}
+
+.pricing > div {
+  text-align: center;
+}
+
+.pricing .pricing__item {
+  display: inline-block;
+  padding: 20px 40px;
+  margin: 0 25px;
+  border-radius: 10px;
+  width: 20%;
+  text-align: center;
+  box-shadow: 3px 3px 6px 1px rgb(0, 0, 0, 0.1);
+}
+
+.pricing .pricing__item img {
+  width: 50%;
+}
+
+.pricing .pricing__item ul {
+  list-style: none;
+  padding: 0;
+}
+
+.pricing .pricing__item li {
+  padding: 10px;
+}
+
+.pricing .pricing__item li:nth-child(odd) {
+  background-color: rgba(218, 165, 32, 0.1);
+}
+
+.pricing .pricing__item strong {
+  font-size: 32px;
+}
+
+.pricing > div div:nth-child(n+2) strong::before {
+  content: "£";
+  position: relative;
+  top: -10px;
+  left: -5px;
+  font-weight: 800;
+  color: goldenrod;
+  font-size: 20px;
+}
+
+.pricing > div div:nth-child(n+2) strong::after {
+  content: ",00";
+  position: relative;
+  top: 2px;
+  left: 2px;
+  color: goldenrod;
+  font-size: 18px;
+}

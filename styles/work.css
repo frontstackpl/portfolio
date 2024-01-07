@@ -1,0 +1,22 @@
+section.work {
+  margin: 50px auto; 
+  background-color: #f0f0f0;
+  padding: 20px 15% 50px 15%;
+}
+
+section.work .card {
+  width: 250px;
+  margin: 10px 30px;
+  display: inline-block;
+}
+
+section.work .card h3 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+section.work .card img {
+  max-width: 100%;
+  border-radius: 14px;
+}
